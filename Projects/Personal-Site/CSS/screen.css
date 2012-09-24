@@ -1,5 +1,5 @@
 h1 { 
 	font-family: Helvetica; color: white; background-color: green; }
 body {font-family: "Comic Sans MS", cursive}
-li {font-size: 12px;}
-pre {alignment="center"; font-family: helvetica; font-size:14px;}
+li {font-size: 14px; color: green;}
+pre {font-family: helvetica; font-size:14px;}
