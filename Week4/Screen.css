@@ -1,0 +1,12 @@
+body {
+	background: #ccc;
+	margin: 0;
+}
+h1 {
+	margin: 0;
+}
+.container {
+	background: #fff;
+	width: 600px;
+	margin: 0 auto;
+}
