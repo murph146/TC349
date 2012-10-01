@@ -1,23 +1,42 @@
 h1 {
 	font-family: Helvetica;
 	color: white;
-	background-color: green;
+	background-color: #03C;
 }
-h2 {
+h2, h3 {
 	font-family: Helvetica;
 }
-h3 {
-	font-family: Helvetica;
-}
+
 body {
-	font-family: Comic Sans MS, Helvetica, cursive
+	margin: 10px;
+	font-family: Comic Sans MS, Helvetica, cursive;
+	width:1500px;
+	height:100px;
 }
 li {
 	font-size: 14px;
 	color: black;
 }
+ul.one {
+	background-color:#3F6;
+	width:1300px;	
+}
 pre {
 	text-align: center;
 	font-family: helvetica;
 	font-size: 14px;
+}
+#nav {
+
+		margin:20px;
+		padding:0;
+		list-style:none;
+		
+	}
+#nav li {
+	width: 3.5in;
+	text-align:center;
+	float: left;
+	border:2px solid;
+	
 }
