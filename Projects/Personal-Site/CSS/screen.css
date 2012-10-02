@@ -2,9 +2,21 @@ h1 {
 	font-family: Helvetica, "Times New Roman", Times, serif;
 	color: white;
 	background-color: #03C;
+	text-align: center;
 }
 h2, h3 {
 	font-family: Helvetica, "Times New Roman", Times, serif;
+}
+
+#pic, #slide{
+	float:right;
+}
+
+#thumbnail, #bahamas {
+	float:left;
+}
+#bike {
+	float:right;
 }
 body {
 	margin: 20px;
