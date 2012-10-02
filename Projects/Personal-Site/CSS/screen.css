@@ -31,4 +31,13 @@ ul.one {
 	text-align: center;
 	float: left;
 	border: 2px solid;
+	-webkit-transition: all 0s ease 0s;
+	-moz-transition: all 0s ease 0s;
+	-ms-transition: all 0s ease 0s;
+	-o-transition: all 0s ease 0s;
+	transition: all 0s ease 0s;
+}
+#nav li:hover {
+	color: #03C;
+	background-color: #3F6;
 }
