@@ -19,10 +19,9 @@ h2, h3 {
 	float:right;
 }
 body {
-	margin: 20px;
+	margin: 20px 5%;
 	font-family: Comic Sans MS, Helvetica;
-	width: 1550px;
-	height: 100px;
+	
 }
 li {
 	font-size: 14px;
@@ -33,13 +32,13 @@ ul.one {
 	width: auto;
 }
 #nav {
-	margin: 20px;
+	margin: 0;
 	padding: 0;
 	list-style: none;
 }
 #nav li {
-	margin: 1.5px;
-	width: 3.85in;
+	margin: 1%;
+	width: 22.5%;
 	text-align: center;
 	float: left;
 	border: 2px solid;
