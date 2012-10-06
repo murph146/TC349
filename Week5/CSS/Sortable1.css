@@ -1,19 +1,26 @@
-
 h1 {
-	width:auto;
-	text-align:center;
-	border:3px solid #C00;
-	background:gray;
-	color:black;
+	width: auto;
+	text-align: center;
+	border: 3px solid #C00;
+	background: gray;
+	color: black;
 }
-
+h2 {
+	color: blue;
+}
+#page2 {
+	color: black;
+	text-align: center;
+	background: gray;
+	border: 3px solid #03F;
+}
+img {
+	width: 75%;
+}
 body {
-	width:auto;
+	width: auto;
 	margin: 20px 5%;
-	font-size:18px;
-	color:#C00;
-	vertical-align:top;
+	font-size: 18px;
+	color: #C00;
+	vertical-align: top;
 }
-
-
-
