@@ -8,19 +8,22 @@ h1 {
 h2 {
 	color: blue;
 }
-#page2 {
-	color: black;
-	text-align: center;
-	background: gray;
-	border: 3px solid #03F;
-}
-img {
-	width: 75%;
-}
 body {
 	width: auto;
 	margin: 20px 5%;
 	font-size: 18px;
 	color: #C00;
 	vertical-align: top;
+}
+img {
+	width: 90%;
+}
+#header2 {
+	color: black;
+	text-align: center;
+	background: gray;
+	border: 3px solid #03F;
+}
+#body2 {
+	color: #03F
 }
