@@ -1,22 +1,9 @@
-h1 {
+#header1 {
 	width: auto;
 	text-align: center;
 	border: 3px solid #C00;
 	background: gray;
 	color: black;
-}
-h2 {
-	color: blue;
-}
-body {
-	width: auto;
-	margin: 20px 5%;
-	font-size: 18px;
-	color: #C00;
-	vertical-align: top;
-}
-img {
-	width: 90%;
 }
 #header2 {
 	color: black;
@@ -24,6 +11,23 @@ img {
 	background: gray;
 	border: 3px solid #03F;
 }
-#body2 {
+body {
+	width: auto;
+	margin: 20px 5%;
+	font-size: 18px;
+}
+img {
+	width: 90%;
+}
+.pics1 {
+	color: #C00;
+}
+.pics2 {
+	color: #03F;
+}
+.description1 {
+	color: #C00;
+}
+.description2 {
 	color: #03F
 }
