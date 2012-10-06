@@ -1,0 +1,19 @@
+
+h1 {
+	width:auto;
+	text-align:center;
+	border:3px solid #C00;
+	background:gray;
+	color:black;
+}
+
+body {
+	width:auto;
+	margin: 20px 5%;
+	font-size:18px;
+	color:#C00;
+	vertical-align:top;
+}
+
+
+
