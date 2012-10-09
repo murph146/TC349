@@ -29,5 +29,13 @@ img {
 	color: #C00;
 }
 .description2 {
-	color: #03F
+	color: #03F;
+	-webkit-transition: all 0s ease 0s;
+	-moz-transition: all 0s ease 0s;
+	-ms-transition: all 0s ease 0s;
+	-o-transition: all 0s ease 0s;
+	transition: all 0s ease 0s;
+}
+.Link:hover {
+	color: #090;
 }
