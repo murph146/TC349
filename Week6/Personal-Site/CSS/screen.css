@@ -1,0 +1,54 @@
+h1 {
+	font-family: Helvetica, "Times New Roman", Times, serif;
+	color: white;
+	background-color: #03C;
+	text-align: center;
+}
+h2, h3 {
+	font-family: Helvetica, "Times New Roman", Times, serif;
+}
+
+#pic, #slide{
+	float:right;
+}
+
+#thumbnail, #bahamas {
+	float:left;
+}
+#bike {
+	float:right;
+}
+body {
+	margin: 20px 5%;
+	font-family: Comic Sans MS, Helvetica;
+	
+}
+li {
+	font-size: 14px;
+	color: black;
+}
+ul.one {
+	background-color: #3F6;
+	width: auto;
+}
+#nav {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+#nav li {
+	margin: 1%;
+	width: 22.5%;
+	text-align: center;
+	float: left;
+	border: 2px solid;
+	-webkit-transition: all 0s ease 0s;
+	-moz-transition: all 0s ease 0s;
+	-ms-transition: all 0s ease 0s;
+	-o-transition: all 0s ease 0s;
+	transition: all 0s ease 0s;
+}
+#nav li:hover {
+	color: #03C;
+	background-color: #3F6;
+}
