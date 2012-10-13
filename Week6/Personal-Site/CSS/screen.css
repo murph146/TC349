@@ -9,18 +9,17 @@ h2, h3 {
 }
 
 #pic, #slide{
-	width: 325px;
+	width: 300px;
 	float:right;
 }
 
 #thumbnail, #bahamas {
 	float:left;
-	margin:2%;
 }
 #bike {
 	float:right;
 	padding:1%;
-	margin: 2%;
+	margin: 1%;
 }
 body {
 	margin: 20px 5%;
