@@ -9,6 +9,7 @@ h2, h3 {
 }
 
 #pic, #slide{
+	width: 325px;
 	float:right;
 }
 
@@ -17,19 +18,21 @@ h2, h3 {
 }
 #bike {
 	float:right;
+	padding:1%;
+	margin: 2%;
 }
 body {
 	margin: 20px 5%;
-	font-family: Comic Sans MS, Helvetica;
+	font-family: Helvetica, "Times New Roman", Times, serif;
 	
 }
 li {
-	font-size: 14px;
 	color: black;
 }
 ul.one {
 	background-color: #3F6;
 	width: auto;
+	clear: both;
 }
 #nav {
 	margin: 0;
@@ -51,4 +54,11 @@ ul.one {
 #nav li:hover {
 	color: #03C;
 	background-color: #3F6;
+}
+
+article {
+	width: 300px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
 }
