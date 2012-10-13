@@ -15,6 +15,7 @@ h2, h3 {
 
 #thumbnail, #bahamas {
 	float:left;
+	margin:2%;
 }
 #bike {
 	float:right;
