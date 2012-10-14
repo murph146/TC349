@@ -18,8 +18,8 @@ h2, h3 {
 	margin-top:10px;
 }
 #bike {
-	float:right;
-	padding:1%;
+	float:left;
+	padding-left:5%;
 	margin: 1%;
 }
 body {
