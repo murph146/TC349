@@ -1,7 +1,11 @@
+@font-face {
+	font-family:"Teletype";
+	src:url(TELETYPE.TTF);
+}
 body {
 	background: url(images/bg.png);
 	margin: 0;
-	font-family: "Helvetica", sans-serif;
+	font-family: "Teletype";
 	line-height: 1.4em;
 }
 h1, h2, h3 {
@@ -19,6 +23,7 @@ h1 {
 hgroup {
 	color: #fff;
 	margin: 0 0 40px 0;
+	font-family: "Teletype"
 }
 h2 {
 	margin-bottom: 10px;
@@ -35,6 +40,7 @@ h3 {
 	padding: 15px;
 	background: #fff url(images/yum.jpg) no-repeat;
 	border-top: 10px solid #222;
+	box-shadow: 0 0 20px #424242
 }
 article {
 	margin: 250px 0 0 0;
