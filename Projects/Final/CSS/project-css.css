@@ -9,6 +9,7 @@ h1 {
 	margin-top: 15px;;
 	padding-right: 10px;
 	padding-left: 10px;
+	text-align:center;
 }
 header, section, footer, aside, article, figure {
 	display: block;
