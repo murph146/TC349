@@ -1,5 +1,5 @@
 body {
-	font: 100%/1.4  Helvetica, Verdana, Arial, sans-serif;
+	font: 100%/1.4 Helvetica, Verdana, Arial, sans-serif;
 	background-color: white;
 	margin: 0;
 	padding: 0;
@@ -9,17 +9,19 @@ ul, ol, dl {
 	padding: 0;
 	margin: 0;
 }
-h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;
-	padding-right: 10px;
-	padding-left: 10px;
-	text-align: center;
+h1, h2, {
+ margin-top: 0;
+ padding-right: 10px;
+ padding-left: 10px;
 }
-a img {
+img {
 	border: 2px solid;
 }
+.tools {
+	padding: 20px;
+}
 a:link {
-	color: #006 ;
+	color: #006;
 }
 a:visited {
 	color: white;
@@ -39,16 +41,9 @@ header {
 .sidebar1 {
 	float: right;
 	width: 180px;
+	height: 600px;
 	background-color: #C00;
 	padding-bottom: 10px;
-}
-.content {
-	padding: 10px 0;
-	width: 100%;
-	float: center;
-}
-.content ul, .content ol {
-	padding: 0 15px 15px 40px;
 }
 ul.nav {
 	list-style: none;
@@ -74,6 +69,7 @@ footer {
 	background-color: #C00;
 	position: relative;
 	clear: both;
+	text-align: center;
 }
 header, section, footer, aside, article, figure {
 	display: block;
