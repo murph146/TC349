@@ -1,5 +1,9 @@
-
-
+@font-face {
+	font-family: "Teletype";
+	src: url("teletype.eot");
+	src: local("☺"),
+	  url("teletype.woff") format("woff");
+}
 body {
 	background-color: white;
 	margin: 0;
@@ -24,7 +28,7 @@ img {
 }
 .tools {
 	padding-left: 13%;
-	width:auto;
+	width: auto;
 }
 .container {
 	width: 100%;
@@ -32,8 +36,7 @@ img {
 	margin: 0 auto;
 }
 P {
-	padding:10px; 
-
+	padding: 10px;
 }
 header {
 	background-color: #C00;
