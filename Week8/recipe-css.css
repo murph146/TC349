@@ -5,7 +5,7 @@
 body {
 	background: url(images/bg.png);
 	margin: 0;
-	font-family: "Teletype";
+	font-family: "Teletype", Helvetica, Georgia, sans serif;
 	line-height: 1.4em;
 }
 h1, h2, h3 {
