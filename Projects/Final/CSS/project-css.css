@@ -1,8 +1,11 @@
 @font-face {
 	font-family: "Teletype";
-	src: url("teletype.eot");
+	src: url("fonts/teletype.eot");
 	src: local("☺"),
-	  url("teletype.woff") format("woff");
+	  url("fonts/teletype.woff") format("woff")
+	  url("fonts/teletype.otf") format("opentype"),
+      url("fonts/teletype.svg#font") format("svg");
+
 }
 body {
 	background-color: white;
