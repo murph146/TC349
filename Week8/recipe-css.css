@@ -1,11 +1,7 @@
-@font-face {
-	font-family:"Teletype";
-	src:url(TELETYPE.TTF);
-}
 body {
 	background: url(images/bg.png);
 	margin: 0;
-	font-family: "Teletype", Helvetica, Georgia, sans serif;
+	font-family: "fertigo-pro", Helvetica, Georgia, sans serif;
 	line-height: 1.4em;
 }
 h1, h2, h3 {
