@@ -5,7 +5,6 @@
 	  url("fonts/teletype.woff") format("woff")
 	  url("fonts/teletype.otf") format("opentype"),
       url("fonts/teletype.svg#otherfont") format("svg");
-
 }
 body {
 	background-color: white;
