@@ -159,12 +159,12 @@ textarea {
 }
 
 body {
-  margin: 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  line-height: 20px;
-  color: #333333;
-  background-color: #ffffff;
+	margin: 0;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 15px;
+	color: #333333;
+	background-color: #ffffff;
 }
 
 a {
@@ -863,10 +863,10 @@ blockquote:after {
 }
 
 address {
-  display: block;
-  margin-bottom: 20px;
-  font-style: normal;
-  line-height: 20px;
+	display: block;
+	margin-bottom: 20px;
+	font-style: normal;
+	line-height: 20px;
 }
 
 code,
@@ -3933,6 +3933,7 @@ input[type="submit"].btn.btn-mini {
 
 .nav-tabs.nav-stacked {
   border-bottom: 0;
+  clear:left;
 }
 
 .nav-tabs.nav-stacked > li > a {
