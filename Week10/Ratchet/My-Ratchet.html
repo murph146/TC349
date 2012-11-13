@@ -1,77 +1,88 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Ratchet template page</title>
+<head>
+<meta charset="utf-8">
+<title>My Ratchet Page</title>
 
-    <!-- Sets initial viewport load and disables zooming  -->
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+<!-- Sets initial viewport load and disables zooming  -->
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
 
-    <!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+<!-- Makes your prototype chrome-less once bookmarked to your phone's home screen -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-    <!-- Set Apple icons for when prototype is saved to home screen -->
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icons/apple-touch-icon-114x114.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icons/apple-touch-icon-72x72.png">
-    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="touch-icons/apple-touch-icon-57x57.png">
+<!-- Set Apple icons for when prototype is saved to home screen -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="touch-icons/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="touch-icons/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="touch-icons/apple-touch-icon-57x57.png">
 
-    <!-- Include the compiled Ratchet CSS -->
-    <link rel="stylesheet" href="ratchet.css">
+<!-- Include the compiled Ratchet CSS -->
+<link rel="stylesheet" href="ratchet.css">
 
-    <!-- Include the compiled Ratchet JS -->
-    <script src="ratchet.js"></script>
+<!-- Include the compiled Ratchet JS -->
+<script src="ratchet.js"></script>
+</head>
+<body>
 
-    <!-- Intro paragraph styles. Delete once you start using this page -->
-    <style type="text/css">
-        .welcome {
-          line-height: 1.5;
-          color: #555;
-        }
-    </style>
+<!-- Make sure all your bars are the first things in your <body> -->
+<header class="bar-title"> <a class="button-prev" href="#"> Previous </a>
+  <h1 class="title">Watches Page</h1>
+  <a class="button-next" href="#"> Next </a>
+</header>
+<nav class="bar-tab">
+  <ul class="tab-inner">
+    <li class="tab-item active"> <a href=""> <img class="tab-icon" src="img/icon-home.png">
+      <div class="tab-label">Label</div>
+      </a> </li>
+    <li class="tab-item"> <a href=""> <img class="tab-icon" src="img/icon-profile.png">
+      <div class="tab-label">Label</div>
+      </a> </li>
+    <li class="tab-item"> <a href=""> <img class="tab-icon" src="img/icon-messages.png">
+      <div class="tab-label">Label</div>
+      </a> </li>
+    <li class="tab-item"> <a href=""> <img class="tab-icon" src="img/icon-hamburger.png">
+      <div class="tab-label">Label</div>
+      </a> </li>
+  </ul>
+</nav>
 
-  </head>
-  <body>
-
-  <!-- Make sure all your bars are the first things in your <body> -->
-  <header class="bar-title">
-    <h1 class="title">Ratchet</h1>
-  </header>
-
-  <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
-  <div class="content">
-    <div class="content-padded">
-      <p class="welcome">Thanks for downloading Ratchet. This is an example HTML page that's linked up to compiled Ratchet CSS and JS, has the proper meta tags and the HTML structure. Need some more help before you start filling this with your own content? Check out some Ratchet resorces:</p>
-    </div>
-
-    <ul class="list inset">
-      <li>
-        <a href="http://maker.github.com/ratchet/">
-          <strong>Ratchet documentation</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-      <li>
-        <a href="http://www.github.com/maker/ratchet/">
-          <strong>Ratchet on Github</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-      <li>
-        <a href="https://groups.google.com/forum/#!forum/goratchet">
-          <strong>Ratchet Google group</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-      <li>
-        <a href="http://www.twitter.com/GoRatchet">
-          <strong>Ratchet on Twitter</strong>
-          <span class="chevron"></span>
-        </a>
-      </li>
-    </ul>
-
+<!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
+<div class="content">
+  <div class="content-padded" style="text-align:center">
+    <p class="welcome"><strong>Thanks for checking out my page. I hope you find it easily navigable on your mobile device. Happy surfing!</strong></p>
   </div>
-
-  </body>
+  <ul class="segmented-controller">
+    <li class="active"> <a href="#item1">Thing one</a> </li>
+    <li> <a href="#item2">Thing two</a> </li>
+    <li> <a href="#item3">Thing three</a> </li>
+  </ul>
+  <ul class="inset list">
+    <li id="item1" class="segmented-controller-item active"> Item 1 </li>
+    <li id="item2" class="segmented-controller-item"> Item 2 </li>
+    <li id="item3" class="segmented-controller-item"> Item 3 </li>
+  </ul>
+  <ul class="list">
+    <li> <a href="#"> Breitling <span class="chevron"></span> </a> </li>
+    <li> <a href="#"> Citizen <span class="chevron"></span> </a> </li>
+    <li> <a href="#"> Movado <span class="chevron"></span> </a> </li>
+    <li> <a href="#"> Tag Heuer <span class="chevron"></span> </a> </li>
+  </ul>
+</div>
+<form>
+  <div class="input-group">
+    <div class="input-row">
+      <label>Full name</label>
+      <input type="text" placeholder="Mister Ratchet">
+    </div>
+    <div class="input-row">
+      <label>Email</label>
+      <input type="email" placeholder="ratchetframework@gmail.com">
+    </div>
+    <div class="input-row">
+      <label>Username</label>
+      <input type="text" placeholder="goRatchet">
+    </div>
+  </div>
+</form>
+</body>
 </html>
