@@ -863,10 +863,11 @@ blockquote:after {
 }
 
 address {
-	display: block;
+	padding:10px;
 	margin-bottom: 20px;
 	font-style: normal;
 	line-height: 20px;
+	text-align:center;
 }
 
 code,
