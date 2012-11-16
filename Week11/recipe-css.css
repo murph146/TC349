@@ -1,0 +1,66 @@
+body {
+	background: url(images/bg.png);
+	margin: 0;
+	font-family: "fertigo-pro", Helvetica, Georgia, sans serif;
+	line-height: 1.4em;
+}
+h1, h2, h3 {
+	margin: 0;
+}
+h1 {
+	background: url(images/logo.png) no-repeat center top;
+	height: 100px;
+	width: 800px;
+	text-indent: -9000px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+hgroup {
+	color: #fff;
+	margin: 0 0 40px 0;
+	font-family: "Fertigo-Pro", Helvetica, Gerogria, sans serif
+}
+h2 {
+	margin-bottom: 10px;
+}
+h3 {
+	margin-bottom: 5px;
+	font-weight: normal;
+}
+.container {
+	width: 800px;
+	margin: 0 auto;
+}
+#recipes {
+	padding: 15px;
+	background: #fff url(images/yum.jpg) no-repeat center top;
+	border-top: 10px solid #222;
+	box-shadow: 0 0 20px #424242
+}
+article {
+	margin: 250px 0 0 0;
+}
+table, tr, td {
+	border: 1px solid #ccc;
+	border-collapse: collapse;
+}
+table td {
+	padding: 5px;
+}
+@media (max-width: 320px) {
+.container {
+	width: 100%;
+	margin: 0;
+}
+h1 {
+	width: 100%;
+}
+article {
+	margin: 240px 0 0 0;
+}
+video {
+	width: 100%;
+	height: inherit;
+}
+}
