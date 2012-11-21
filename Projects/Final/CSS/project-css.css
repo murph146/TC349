@@ -73,6 +73,13 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 	background-color: #006;
 	color: #FFF;
 }
+
+ul.nav a.active {
+	background: #fff;
+	font-weight: bold;
+	color: red;
+}
+
 a:link {
 	color: #006;
 }
@@ -80,6 +87,7 @@ a:visited {
 	color: white;
 	text-decoration: underline;
 }
+
 footer {
 	padding: 10px 0;
 	background-color: #C00;
