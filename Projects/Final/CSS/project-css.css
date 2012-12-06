@@ -1,44 +1,29 @@
-@font-face {
-	font-family: "Teletype";
-	src: url("fonts/teletype.eot");
-	src: local("☺"),
-	  url("fonts/teletype.woff") format("woff")
-	  url("fonts/teletype.otf") format("opentype"),
-      url("fonts/teletype.svg#otherfont") format("svg");
-}
 body {
 	background-color: white;
-	margin: 0;
-	padding: 0;
 	color: #006;
-	font-family: "Teletype", Helvetica, Verdana, Arial, sans-serif;
+	font-family: Helvetica, Verdana, Arial, sans-serif;
 	font-size: 100%;
 	line-height: 1.4;
 }
-h1 {
-	margin-top: 15px;
+h1, h2 {
 	padding-right: 10px;
 	padding-left: 10px;
 	text-align: center;
 	color: #006;
 }
-header, section, footer, aside, article, figure {
+section, footer, aside, article, figure {
 	display: block;
 }
 img {
 	border: 2px solid;
 }
+.content {
+	padding-left: 10px;
+	padding-right: 10px;
+}
 .tools {
-	padding-left: 13%;
+	padding-left: 22%;
 	width: auto;
-}
-.container {
-	width: 100%;
-	background-color: #FFFFFF;
-	margin: 0 auto;
-}
-P {
-	padding: 10px;
 }
 header {
 	background-color: #C00;
@@ -50,10 +35,15 @@ header {
 	background-color: #C00;
 	padding-bottom: 10px;
 }
-ul, ol, dl {
+ul, dl {
 	padding: 0;
 	margin: 0;
 }
+
+ol {
+	Padding-left: 20px;
+}
+
 ul.nav {
 	list-style: none;
 	border-top: 1px solid white;
@@ -73,24 +63,21 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 	background-color: #006;
 	color: #FFF;
 }
-
 ul.nav a.active {
 	background: #fff;
 	font-weight: bold;
 	color: red;
 }
-
 a:link {
 	color: #006;
 }
 a:visited {
-	color: white;
+	color: blue;
 	text-decoration: underline;
 }
-
 footer {
-	padding: 10px 0;
-	background-color: #C00;
+	padding: 10px;
+	background-color: #999;
 	position: relative;
 	clear: both;
 	text-align: left;
