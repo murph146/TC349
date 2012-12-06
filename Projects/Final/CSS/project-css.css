@@ -1,4 +1,5 @@
 body {
+	width: auto;
 	background: url(../Images/sky2.jpg) no-repeat;
 	color: #006;
 	font-family: Helvetica, Verdana, Arial, sans-serif;
@@ -11,18 +12,19 @@ h1, h2 {
 	text-align: center;
 	color: black;
 }
-section, footer, aside, article, figure {
-	display: block;
+
+aside {
+	text-align:center;
 }
 img {
 	border: 2px solid;
 }
 .content {
-	width:1365px;
+	
 	padding-left: 10px;
 	padding-right: 10px;
 	color: black;
-	background-color: #FFF; opacity:0.8;
+;
 	
 	
 }
@@ -87,3 +89,40 @@ footer {
 	clear: both;
 	text-align: left;
 }
+
+@media (max-width: 320px) {
+.content {
+	width: auto;
+	margin: 0;
+	clear: left;
+}
+header {
+	width:auto;	
+	
+}
+.sidebar1 {
+	width: auto;
+	height: auto;
+	
+}
+
+aside {
+	width: auto;
+	height: auto;
+}
+body {
+	width: 100%;
+	margin: 0;
+	
+}
+h1, h2 {
+	width: auto;
+	
+}
+
+footer {
+	width: 100%;
+	margin: 0;
+
+}
+
