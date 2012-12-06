@@ -1,15 +1,15 @@
 body {
-	background-color: white;
+	background: url(../Images/sky2.jpg) no-repeat;
 	color: #006;
 	font-family: Helvetica, Verdana, Arial, sans-serif;
 	font-size: 100%;
-	line-height: 1.4;
+	
 }
 h1, h2 {
 	padding-right: 10px;
 	padding-left: 10px;
 	text-align: center;
-	color: #006;
+	color: black;
 }
 section, footer, aside, article, figure {
 	display: block;
@@ -18,8 +18,13 @@ img {
 	border: 2px solid;
 }
 .content {
+	width:1365px;
 	padding-left: 10px;
 	padding-right: 10px;
+	color: black;
+	background-color: #FFF; opacity:0.8;
+	
+	
 }
 .tools {
 	padding-left: 22%;
