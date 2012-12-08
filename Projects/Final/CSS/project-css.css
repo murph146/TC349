@@ -63,7 +63,10 @@ ul {
 	margin: 0;
 }
 ol {
-	Padding-left: 20px;
+	Padding-left: 30px;
+}
+#electric, #gas {
+	padding-left: 50px;
 }
 ul.nav {
 	list-style: none;
