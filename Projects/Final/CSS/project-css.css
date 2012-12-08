@@ -19,9 +19,9 @@ body {
 	font-size: 14px;
 }
 footer {
-	width: 100%;
+	border: 2px solid;
+	padding: 5px;
 	color: black;
-	padding: 15px;
 	background-color: #999;
 	clear: both;
 	text-align: left;
@@ -36,6 +36,7 @@ h1, h2, h3, h4 {
 	color: black;
 }
 header {
+	width:100%;
 	background-color: #C00;
 	height: 125px;
 }
@@ -73,6 +74,7 @@ ul {
 	padding-bottom: 10px;
 }
 .tools {
+	padding-top:10px;
 	padding-left: 22%;
 	width: auto;
 }
