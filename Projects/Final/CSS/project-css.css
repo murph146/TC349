@@ -1,7 +1,8 @@
 body {
 	width: auto;
 	height: auto;
-	background: url(../Images/sky2.jpg);
+	background: #39F;
+	background-repeat:repeat;
 	color: #006;
 	font-family: Helvetica, Verdana, Arial, sans-serif;
 	font-size: 100%;
@@ -65,9 +66,10 @@ ul {
 ol {
 	Padding-left: 30px;
 }
-#electric, #gas, #co-axil, #fixed, #collective{
+#electric, #gas, #co-axil, #fixed, #collective {
 	padding-left: 50px;
-	text-wrap:none;
+	text-wrap: none;
+	font-size: 14px;
 }
 ul.nav {
 	list-style: none;
@@ -101,38 +103,43 @@ a:visited {
 	text-decoration: underline;
 }
 footer {
+	width: 100%;
 	color: black;
 	padding: 15px;
 	background-color: #999;
-	position: relative;
 	clear: both;
 	text-align: left;
 }
  @media (max-width: 320px) {
+body {
+	width: 100%;
+}
 .content {
-	width: auto;
+	width: 100%;
 	margin: 0;
 	clear: left;
 }
 header {
-	width: auto;
+	width: 100%;
 }
 .sidebar1 {
-	width: auto;
+	width: 100%;
 	height: auto;
+	float: right;
 }
 aside {
-	width: auto;
+	width: 100%;
 	height: auto;
+	float: right;
 }
 body {
-	width: auto;
+	width: 100%;
 	margin: 0;
 }
-h1, h2 {
-	width: auto;
+h1, h2, h3, h4 {
+	width: 100%;
 }
 footer {
-	width: auto;
-	margin: 0;
+	width: 100%;
+	clear: both;
 }
