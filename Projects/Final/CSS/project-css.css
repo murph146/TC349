@@ -6,7 +6,7 @@ body {
 	font-family: Helvetica, Verdana, Arial, sans-serif;
 	font-size: 100%;
 }
-h1, h2, h4 {
+h1, h2, h3, h4 {
 	padding-right: 10px;
 	padding-left: 10px;
 	text-align: center;
@@ -65,8 +65,9 @@ ul {
 ol {
 	Padding-left: 30px;
 }
-#electric, #gas {
+#electric, #gas, #co-axil, #fixed, #collective{
 	padding-left: 50px;
+	text-wrap:none;
 }
 ul.nav {
 	list-style: none;
