@@ -1,53 +1,52 @@
 body {
 	width: auto;
 	height: auto;
-	background: url(../Images/sky2.jpg) no-repeat;
+	background: url(../Images/sky2.jpg);
 	color: #006;
 	font-family: Helvetica, Verdana, Arial, sans-serif;
 	font-size: 100%;
-	
 }
-h1, h2 {
+h1, h2, h4 {
 	padding-right: 10px;
 	padding-left: 10px;
 	text-align: center;
 	color: black;
 }
-
 h1 {
 	padding-top: 40px;
 }
-
 aside {
-	text-align:center;
-	height:inherit;
-	height:600px;
+	color: black;
+	text-align: center;
+	height: 600px;
 	clear: right;
-	
 }
 img {
 	border: 2px solid;
-	
 }
+
 .content {
 	padding-top: 20px;
 	padding-left: 10px;
 	padding-right: 10px;
 	color: #000;
-	text-wrap:none;	
-	clear:left;
+	text-wrap: none;
+	clear: left;
+}
+.brands {
+	text-align:center;
+	color: black;
 }
 .tools {
 	padding-left: 22%;
 	width: auto;
 }
 .pictures {
-	display:block;
-	width:auto;
+	display: block;
+	width: auto;
 }
-
 .videos {
-	padding-left:10px;
+	padding-left: 215px;
 }
 header {
 	background-color: #C00;
@@ -60,7 +59,7 @@ header {
 	background-color: #C00;
 	padding-bottom: 10px;
 }
-ul, dl {
+ul {
 	padding: 0;
 	margin: 0;
 }
@@ -68,7 +67,6 @@ ul, dl {
 ol {
 	Padding-left: 20px;
 }
-
 ul.nav {
 	list-style: none;
 	border-top: 1px solid white;
@@ -91,39 +89,36 @@ ul.nav a:hover, ul.nav a:active, ul.nav a:focus {
 ul.nav a.active {
 	background: #fff;
 	font-weight: bold;
-	color: red;
+	color: black;
 }
 a:link {
-	color: #006;
+	color: black;
 }
 a:visited {
-	color: blue;
+	color: #CF0;
 	text-decoration: underline;
 }
 footer {
+	color: black;
 	padding: 15px;
 	background-color: #999;
 	position: relative;
 	clear: both;
 	text-align: left;
 }
-
-@media (max-width: 320px) {
+ @media (max-width: 320px) {
 .content {
 	width: auto;
 	margin: 0;
 	clear: left;
 }
 header {
-	width:auto;	
-	
+	width: auto;
 }
 .sidebar1 {
 	width: auto;
 	height: auto;
-	
 }
-
 aside {
 	width: auto;
 	height: auto;
@@ -131,16 +126,11 @@ aside {
 body {
 	width: 100%;
 	margin: 0;
-	
 }
 h1, h2 {
 	width: auto;
-	
 }
-
 footer {
 	width: 100%;
 	margin: 0;
-
 }
-

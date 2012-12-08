@@ -5,8 +5,26 @@
 <title>R/C Helicopters Home</title>
 <link rel="stylesheet" href="CSS/project-css.css" type="text/css" media="all">
 </head>
-
 <body>
+<script type="text/javascript">
+<!--
+var author="jdstiles.com";
+var DS_ScrollText="Another Website I Created";
+var DS_Speed=(5-(1))*35; // Change the last number to change the speed of the scroll
+document.write("<form name=\"ds_form\"><input type=\"button\" name=\"ds_scrollb\" value=\"\" onClick=\"javascript:window.location.href='https://www.msu.edu/~murph146/Recipe4.html'\" style=\"background-color:#000098;font-size:12;color:#ffffff;font-family:monospace\">");
+var DS_ScrollCounter=0;
+var DS_I=0;
+while(DS_I++<4)
+DS_ScrollText=" "+DS_ScrollText;
+function DS_ButtonScroll(){
+document.ds_form.ds_scrollb.value=DS_ScrollText.substring(DS_ScrollCounter,DS_ScrollText.length)+DS_ScrollText.substring(0,DS_ScrollCounter);;
+DS_ScrollCounter++;
+DS_ScrollCounter%=(DS_ScrollText.length);
+setTimeout("DS_ButtonScroll()",DS_Speed);
+}
+DS_ButtonScroll();
+// -->
+</script>
 <div class="container">
   <header> <img src="Images/helicopter.jpg" alt="Insert Logo Here" width="180" height="120" id="Insert_logo" style="background-color: #C6D580; float: left; display:block;" />
     <h1>R/C Helicopter Guide</h1>
@@ -19,14 +37,18 @@
       <li><a href="Media.html">Pictures & Videos</a></li>
     </ul>
     <aside>
+    <div class="brands">
       <h4><strong>Major Brands</strong></h4>
       <p><a href="http://www.alignrcusa.com/">Align</a></p>
       <p><a href="http://www.e-fliterc.com/">Eflite</a></p>
       <p><a href="http://www.esky-heli.com/">Esky</a></p>
       <p><a href="http://www.walkera.com/en1/?la=en">Walkera</a></p>
+      </div>
     </aside>
   </div>
-  <div class="content"> Welcome to guide about remote control helicopters. Several years I began to take an interest in learning to build and fly r/c helicopters and have turned it into a personal hobby. I initially got into the r/c hobby back when I was in high school after my parents got me one for Christmas. At the time I didn't even realize how big the r/c industry was and the number of different kinds of r/c devices you can purchase. Now all this talk about r/c toys might have you thinking of the r/c cars or boats you got as a present when you were a kid, but I can assure you these are nothing like that. The majority of these type of helicopters are extremely powerful and have the ability to inflict serious damage on a person or animal if the proper precautions aren't taken. </div>
+  <div class="content"> Welcome to guide about remote control helicopters. Several years I began to take an interest in learning to build and fly r/c helicopters and have turned it into a personal hobby. I initially got into the r/c hobby back when I was in high school after my parents got me one for Christmas. At the time I didn't even realize how big the r/c industry was and the number of different kinds of r/c devices you can purchase. Now all this talk about r/c toys might have you thinking of the r/c cars or boats you got as a present when you were a kid, but I can assure you these are nothing like that. The majority of these type of helicopters are extremely powerful and have the ability to inflict serious damage on a person or animal if the proper precautions aren't taken.
+  Some of the terms used on this website will probably be foreign to you, so please see this glossary for a list of <a href="http://www.heliguy.com/nexus/glossary.html">Remote Control Helicopter Terms</a>
+  </div>
   <div class="content">
     <h2>Types of R/C Helicopters</h2>
     <ol>
@@ -48,6 +70,7 @@
       </ul>
     </ol>
   </div>
+
   <footer>
     <p>I hope you enjoyed viewing this website and were able to have some fun while learning new things about r/c helicopters. The next step will be to decide what kind you want and then purchase it. If you have any questions for me please feel free to contact me at <a href="mailto:murph146@msu.edu?subject=Questions" >Murph146@msu.edu</a></p>
   </footer>
