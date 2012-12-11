@@ -132,16 +132,18 @@ aside {
 body {
 	width: 100%;
 }
+
 footer {
 	width: 100%;
 	clear: both;
 }
 h1, h2, h3, h4 {
 	width: auto;
-	float: right;
 }
 header {
 	width: 100%;
+	display: inline;
+	text-wrap:none
 }
 .content {
 	width: 100%;
@@ -157,10 +159,7 @@ header {
 	width: 320px;
 	height: auto;
  }
-.brands {
-	text-align: center;
-	color: black;
-}
+
 .tools {
 	text-align: center;
 }
@@ -173,4 +172,8 @@ header {
 .button {
 	width: 320px;
  }
+ .brands {
+	text-align: center;
+	color: black;
+}
  }
