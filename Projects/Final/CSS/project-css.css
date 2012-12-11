@@ -143,7 +143,7 @@ h1, h2, h3, h4 {
 header {
 	width: 100%;
 	display: inline;
-	text-wrap:none
+	text-wrap:none;
 }
 .content {
 	width: 100%;
