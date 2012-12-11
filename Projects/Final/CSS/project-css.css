@@ -58,6 +58,9 @@ ul {
 	text-align: center;
 	color: black;
 }
+.button {
+	width: 320px;
+ }
 
 .content {
 	padding-top: 20px;
@@ -78,6 +81,9 @@ ul {
 	background-color: #C00;
 	padding-bottom: 10px;
 }
+.terms {
+	 text-align: center;
+ }
 .tools {
 	padding-top: 10px;
 	padding-left: 22%;
@@ -131,7 +137,8 @@ footer {
 	clear: both;
 }
 h1, h2, h3, h4 {
-	width: 100%;
+	width: auto;
+	float: right;
 }
 header {
 	width: 100%;
@@ -146,3 +153,24 @@ header {
 	height: auto;
 	float: right;
 }
+.videos {
+	width: 320px;
+	height: auto;
+ }
+.brands {
+	text-align: center;
+	color: black;
+}
+.tools {
+	text-align: center;
+}
+.links {
+	text-align:center;
+ }
+.terms {
+	 text-align: center;
+ }
+.button {
+	width: 320px;
+ }
+ }
